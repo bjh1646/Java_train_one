@@ -1,21 +1,15 @@
 package chap05;
 
-import java.util.Scanner;
-
-public class Grade {
+public class Grade2 {
 
 	public static void main(String[] args) {
+		int jumsu = 92;
 		
-		int jumsu;
-		Scanner in = new Scanner(System.in);
-		System.out.print("당신의 점수는? : ");
+		int gr = jumsu/10;
 		
-		jumsu = in.nextInt();
+		switch(gr) {
 		
-		System.out.print("당신의 학점은 : ");
-		
-		switch(jumsu/10) {
-		case 10:
+		case 10 :
 		case 9:
 			System.out.println("A");
 			break;
@@ -31,11 +25,8 @@ public class Grade {
 		default :
 			System.out.println("F");
 			
-			
-				
 		}
-		
-		
+
 	}
 
 }
