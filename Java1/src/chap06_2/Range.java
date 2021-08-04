@@ -12,7 +12,7 @@ public class Range {
 			
 			System.out.print("데이터 한개를 입력 : ");
 			chr = (char)System.in.read();
-			System.in.skip(2); //Enter의 경우 두개의 문자(\n\n)을 버퍼에서 제거 
+			System.in.skip(2); //Enter의 경우 두개의 문자(/n/n)을 버퍼에서 제거 
 			
 			System.out.println(chr);
 
